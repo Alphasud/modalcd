@@ -18,11 +18,11 @@ You need to set a visible state in your component :
 
 then, you need to set up the function that will receive the user click event on the modal close button: 
 
-`const handleModalResponse = (data) => {
-        data ? setIsVisible(false) : '';
-}`
 
-finally, you can use the modal component with several props :
+`const handleModalResponse = (data) => { data ? setIsVisible(false) : ''};`
+
+
+finally, you can use the modal component with several props, here is an exemple :
 
 `<Modal visible={isVisible} message='Thank you for your answers' buttonMessage='OKAY!' handleResponse={handleModalResponse} />`
 
