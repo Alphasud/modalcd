@@ -1,7 +1,7 @@
 import './style.css';
 import React from 'react';
 
-const Modal = (props) => {
+export const Modal = (props) => {
 
     const handleUserClick = (data) => {
         props.handleResponse(data)
@@ -17,4 +17,3 @@ const Modal = (props) => {
     );
 }
 
-export default Modal;
