@@ -18,6 +18,9 @@ export default [
                 exports: 'named',
             }
         ],
+        external: [
+            'react',
+        ],
         plugins: [
             postcss({
                 plugins: [],
